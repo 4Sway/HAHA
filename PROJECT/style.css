@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Body */
+body {
+    background-color: #161616; 
+  }
+
+/* Navigation Bar */
+nav {
+    background-color: #161616; /* Set background color */
+    padding: 15px 20px; /* Add padding */
+    display: flex; /* Make the navigation bar a flex container */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items vertically */
+}
+  
+.logo img {
+    max-height: 40px; /* Adjust logo height */
+}
+  
+.nav-links,
+.nav-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 450px; /* Distance between the Logo and the nav menu */
+    display: flex; /* Display navigation links and icons as flex items */
+}
+  
+.nav-links li,
+.nav-icons li {
+    margin-right: 20px; /* Adjust spacing between links/icons */
+}
+  
+.nav-links li:last-child,
+.nav-icons li:last-child {
+    margin-right: 0; /* Remove margin from last child */
+}
+  
+.nav-links a,
+.nav-icons a {
+    text-decoration: none;
+    color: #fff; /* Set link color */
+    font-weight: bold; /* Set font weight */
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+  
+.nav-links a:hover,
+.nav-icons a:hover {
+    color: #ffc107; /* Change link color on hover */
+}
+  
+.nav-icons {
+    margin-left: auto; /* Move icons to the right by default */
+}
+
+
+hr {
+    margin-left: 15px;
+    margin-right: 15px;   /* Adjusts the verticle line */
+    margin-top: -2px;
+    margin-bottom: 100px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #161616; /* Updated background color */
+    color: #fff;
+    border-radius: 0;
+    text-align: left;
+    margin-left: 0px;
+  }
+  
+  .jumbotron h1 {
+    font-size: 2rem; /* Increased font size for better emphasis */
+    margin-bottom: 1rem; /* Added margin bottom for separation */
+  }
+  
+  .jumbotron p {
+    font-size: 1.2rem; /* Increased font size for better readability */
+  }
+  
+  .jumbotron input[type="text"] {
+    width: calc(100% - 110px); /* Make the input full width minus the width of the button */
+    max-width: 500px; /* Limit the maximum width of the input */
+    padding: 0.5rem; /* Added padding for better appearance */
+    border-radius: 15px; /* Added border radius for top left and bottom left corners */
+    border: 1px solid #fff; /* Added border for better visibility */
+    color: #fff; /* Changed text color for better contrast */
+    background-color: #323232; /* Changed background color of the input field */
+    margin-right: 5px; /* Added margin to the right to create spacing */
+  }
+  
+  .jumbotron .btn.btn-primary {
+    padding: 8px 16px; /* Padding for button */
+    cursor: pointer; /* Cursor style on hover */
+    border-radius: 15px; /* Added border radius for top right and bottom right corners */
+    margin-left: 5px; /* Added margin to the left to create spacing */
+    width: 120px;
+  }
+  
+
+  .img-fluid {
+    max-width: 90%; /* Ensures the image resizes responsively */
+    height: auto; /* Allows the image height to adjust accordingly */
+    border-radius: 10px; /* Added border radius for better appearance */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Added subtle box shadow */
+    margin-top: -30px;
+  }
+
+  .display-4 {
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  .lead {
+    color: dimgrey;
+    font-weight: 400;
+  }
+
+  /* Custom CSS */
+.search-button {
+    background-color: #007bff; /* Blue color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 8px 16px; /* Padding for button */
+    cursor: pointer; /* Cursor style on hover */
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #161616; /* Adjust background color as needed */
+  }
+  
+  .logo img {
+    max-height: 40px; /* Adjust logo height as needed */
+  }
+  
+  .nav-links,
+  .nav-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links li,
+  .nav-icons li {
+    margin-right: 20px; /* Adjust spacing between links/icons as needed */
+  }
+  
+  .nav-links li:last-child,
+  .nav-icons li:last-child {
+    margin-right: 0; /* Remove margin from last child */
+  }
+  
+  .nav-links a,
+  .nav-icons a {
+    text-decoration: none;
+    color: #fff; /* Adjust link color as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  
+  .nav-icons {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-icons li {
+    margin-right: 1rem;
+  }
+  .btn.btn-primary {
+    background-color: #fff; /* White background color */
+    color: #000; /* Black text color */
+    border: 1px solid #000; /* Black border */
+    padding: 8px 16px; /* Padding for button */
+    cursor: pointer; /* Cursor style on hover */
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold ;
+  }
+  
+  .btn.btn-primary:hover {
+    background-color: #ccc; /* Light gray background color on hover */
+  }
+
+  .form-control {
+    font-size: 1rem;
+    font-family: "roboto";
+    font-weight: 200;
+    color: #d5d5d5;
+  }
+
+
+
+  /* PART 3 */
+
+.p3-body{
+    background-color: black;
+}
+.p3-head{
+    text-align: center;
+    color: white;
+    font-family: "roboto";
+    font-weight: 500;
+    margin-top: 120px;
+}
+
+.card {
+    height: 170px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #323232;
+}
+.p3-text {
+    color: white;
+    text-align: center;
+    font-family: "roboto";
+    font-weight: 500;
+}
+
+.image {
+  height: 96px;
+  width: 96px;
+}
+
+
+/* part 4 */
+
+.part4a {
+  width: 400px;
+  margin: 20px;
+  padding-top: 80px;
+}
+
+.part4b {
+  margin: 20px;
+  padding-top: 80px;
+  width: 1200px;
+}
